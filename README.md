@@ -20,6 +20,11 @@ available := fq.Filter(servers, fq.And(
 ), 0, 0)
 ```
 
+- Functional API, queries are plain higher order functions, easy to extend with custom operators.
+- CLI utility for streaming JSONL, tiny query syntax, easy to pipe i/o with other tools.
+- No dependencies, only a few loc.
+- [dev status](#-status)
+
 ## Core Concepts
 
 fq filters any Go data using three composable query types:
